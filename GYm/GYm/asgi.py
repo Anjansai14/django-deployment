@@ -1,5 +1,5 @@
 """
-ASGI config for GYm project.
+ASGI config for GYM project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GYm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GYM.settings')
 
 application = get_asgi_application()
