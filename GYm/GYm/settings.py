@@ -9,7 +9,11 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> a1b16947af06a45d978d48a7a597db4d80ebe430
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,9 +27,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%@c_6w&=6_hl*x*=c0%5@60*l_f0vqk=r4e)*@=$8xbny0-=y#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+<<<<<<< HEAD
 DEBUG = flase
 
 ALLOWED_HOSTS = ['*']
+=======
+DEBUG = True
+
+ALLOWED_HOSTS = []
+>>>>>>> a1b16947af06a45d978d48a7a597db4d80ebe430
 
 
 # Application definition
