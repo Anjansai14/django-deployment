@@ -1,5 +1,8 @@
 from pathlib import Path
 import os
+import sys
+print("Python path:", sys.path)
+print("Looking for GYM module...")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
